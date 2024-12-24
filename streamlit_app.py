@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 # Configure the API key for Gemini AI
 def configure_api():
-  gemini_api_key = 'AIzaSyCdIctBgKw5jPrK2QrB0W8NkJjLOXVvTvg'
+
   genai.configure(api_key=gemini_api_key)
 
 # Initialize the UI elements
